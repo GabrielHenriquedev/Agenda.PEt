@@ -27,7 +27,7 @@ namespace Agenda.PEt
                 switch (entrada)
                 {
                     case "1":
-                        //if (opcao < agenda.Length) {
+                       
                         Console.WriteLine("Criando contato");
                         Contatos NovoCont = new Contatos();
                         Console.WriteLine("Digite o primeiro nome");
@@ -83,8 +83,7 @@ namespace Agenda.PEt
 
                         break;
                     case "3":
-                        //    for(int i=0; i < agenda.Length; i++)
-                        //{
+                        
                         Console.WriteLine("escolha o tipo de busca =");
                         Console.WriteLine("          1 - Apenas nome      ");
                         Console.WriteLine("          2 - Nome completo               ");
